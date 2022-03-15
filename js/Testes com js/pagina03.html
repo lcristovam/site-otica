@@ -1,0 +1,35 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title>Olá</title>
+            <script type="text/javascript" src="script.js"></script>
+            
+           
+    
+        </script>
+                
+        </head>
+        <body>
+            <button>Alerta</button>
+            <div id="conteudo">
+                
+            </div>
+            <script type="text/javascript">
+            var botoes = document.getElementsByTagName("button");
+
+            botoes[0].addEventListener("click", mudarcorfundo);
+
+            botoes[0].addEventListener("click", adicionartexto);
+
+            function mudarcorfundo(){
+                document.getElementsByTagName("body")[0].style.backgroundColor = "#FF5555";
+            }
+
+            function adicionartexto(){
+                document.getElementById("conteudo").innerHTML = "Olá mundo!";
+            }
+            </script>
+
+
+            </body>
+    </html>

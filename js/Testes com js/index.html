@@ -1,0 +1,69 @@
+<DOCTTYPE html>
+<html>
+    <head>
+        <title> Olá!!</title>
+        <script type="text/javascript" src="script.js"></script>
+
+      
+        <script type="text/javascript">
+            var nomecompleto='Lucas Cristovam';
+           // var frase= 'Bem-vindo, ' + nomecompleto + '. Sua idade: ' + (20+3);
+            //Contatenação = Junção
+
+            var resultado = 18+5;
+            var resultado2 = 18-5;
+            var resultado3 = 18*3;
+            var resultado4 = 18/3;
+            var resultado5 = 18/3*(4+3-5);
+
+            //if
+            // comparações
+            // && = e  || = ou
+
+             idade=prompt=("Qual a sua idade?");
+
+            if(idade >=18){
+                frase = " Seu teste será mais avançado, Lucas "
+            }else if(idade >10 && idade <18){
+                frase = "Seu teste será com dif. mediana"
+            }else{
+                frase="Seu teste será com dif. baixa"
+            }
+            sexo = "M"
+            switch(sexo){
+                case "M":
+                    frase = "Masculino";
+                    break;
+                case "F":
+                    frase = "Feminino";
+                    break;
+                default:
+                    break;
+            }
+            var numero = 0
+            //while(numero <20){
+           //     alert(numero);
+            //    numero = numero+1;
+           // }
+
+
+            //for(declaração; condição; lógica de incremento/decremento){ }
+            for(var i=0; i<10; i =i+1){
+             //   alert(i);
+            }
+
+
+            var nomes = ["Elias", "José", "Filipe"];
+            alert(nomes[0] + " " + nomes[2]);
+
+            for(var i =0; i < nomes.length; i++){
+                alert(nomes[i]);
+            }
+        </script>
+    </head>
+    <body>
+        <button onclick="javascript:alert(frase);">alerta</button>
+
+    </body>
+
+</html>
